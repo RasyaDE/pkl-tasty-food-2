@@ -27,7 +27,7 @@
         </div>
     </main>
 
-    <main class="flex items-start lg:px-28 h-full bg-slate-200 justify-center">
+    <main class="flex items-start h-full bg-slate-200 justify-center">
         <div class="my-28 w-1/2 inline-block text-center">
             <h1 class="uppercase text-3xl font-semibold">Tentang Kami</h1>
             <p class="my-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur veniam ut, dolorum distinctio quis repellat molestias quos officia reiciendis. Necessitatibus hic nihil, fugit alias nisi debitis impedit deserunt ab iure voluptatibus officia omnis ea.</p>
@@ -37,7 +37,7 @@
         </div>
     </main>
 
-    <main class="bg-banner -mt-12 mb-8  object-cover bg-center w-full bg-no-repeat h-screen place-content-center ">
+    <main class="bg-banner mb-8 object-cover bg-center w-full bg-no-repeat h-screen place-content-center ">
         <div class="grid lg:grid-cols-4 md:grid-cols-1 gap-3 px-12 h-96">
             <div class="bg-white rounded-lg flex flex-col items-center">
                 <div class="-my-28">
@@ -79,18 +79,18 @@
     </main>
 
     <section class="py-12">
-        <div class="container mx-auto px-4">
+        <div class="mx-auto px-4">
             <h2 class="text-3xl font-bold mb-8 text-center">Berita Kami</h2>
-            <div class="grid gap-8 lg:grid-cols-12">
-                <div class="lg:col-span-4 bg-white shadow-md rounded-lg overflow-hidden">
-                    <img src="{{url('images/food-berita.jpg')}}" alt="Berita 1" class="w-full h-48 object-cover">
+            <div class="grid gap-8 lg:grid-cols-12 lg:grid-rows-2">
+                <div class="lg:col-span-5 row-span-2 bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="{{url('images/food-berita.jpg')}}" alt="Berita 1" class="w-full h-80 object-cover">
                     <div class="p-6">
                         <h3 class="text-lg font-semibold mb-2">Lorem Ipsum Dolor Sit Amet</h3>
                         <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque magna...</p>
-                        <a href="#" class="text-yellow-500 hover:text-yellow-700 font-semibold">Baca selengkapnya</a>
+                        <a href="#" class="text-yellow-500 hover:text-yellow-700 font-semibold mt-20">Baca selengkapnya</a>
                     </div>
                 </div>
-                <div class="lg:col-span-4 bg-white shadow-md rounded-lg overflow-hidden">
+                <div class="lg:col-span-3 bg-white shadow-md rounded-lg overflow-hidden">
                     <img src="{{url('images/food-berita-2.jpg')}}" alt="Berita 2" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-lg font-semibold mb-2">Lorem Ipsum Dolor Sit Amet</h3>
@@ -98,7 +98,7 @@
                         <a href="#" class="text-yellow-500 hover:text-yellow-700 font-semibold">Baca selengkapnya</a>
                     </div>
                 </div>
-                <div class="lg:col-span-4 bg-white shadow-md rounded-lg overflow-hidden">
+                <div class="lg:col-span-3 bg-white shadow-md rounded-lg overflow-hidden">
                     <img src="{{url('images/food-berita-3.jpg')}}" alt="Berita 3" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-lg font-semibold mb-2">Lorem Ipsum Dolor Sit Amet</h3>
@@ -106,7 +106,7 @@
                         <a href="#" class="text-yellow-500 hover:text-yellow-700 font-semibold">Baca selengkapnya</a>
                     </div>
                 </div>
-                <div class="lg:col-span-6 bg-white shadow-md rounded-lg overflow-hidden">
+                <div class="lg:col-span-3 bg-white shadow-md rounded-lg overflow-hidden">
                     <img src="{{url('images/food-berita-4.jpg')}}" alt="Berita 4" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-lg font-semibold mb-2">Lorem Ipsum Dolor Sit Amet</h3>
@@ -114,14 +114,15 @@
                         <a href="#" class="text-yellow-500 hover:text-yellow-700 font-semibold">Baca selengkapnya</a>
                     </div>
                 </div>
-                <div class="lg:col-span-6 bg-white shadow-md rounded-lg overflow-hidden">
-                    <img src="{{url('images/food-berita-6.jpg')}}" alt="Berita 5" class="w-full h-48 object-cover">
+                <div class="lg:col-span-3 bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="{{url('images/food-berita-4.jpg')}}" alt="Berita 4" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-lg font-semibold mb-2">Lorem Ipsum Dolor Sit Amet</h3>
                         <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare...</p>
                         <a href="#" class="text-yellow-500 hover:text-yellow-700 font-semibold">Baca selengkapnya</a>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
