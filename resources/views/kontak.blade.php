@@ -9,6 +9,13 @@
 </head>
 <body>
     <x-navbar></x-navbar>
+    <main class="bg-banner object-cover w-full h-96 bg-no-repeat bg-center -my-20 flex items-center px-28">
+        <h1 class="text-white text-5xl font-extrabold">KONTAK KAMI</h1>
+    </main>
+    <div>
+        <h1>KONTAK KAMI</h1>
+        form
+    </div>
     <x-footer></x-footer>
 </body>
 </html>
