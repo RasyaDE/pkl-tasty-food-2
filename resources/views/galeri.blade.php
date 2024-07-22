@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <x-navbar></x-navbar>
+<x-navbar color="text-white"></x-navbar>
     <main class="bg-banner object-cover w-full h-96 bg-no-repeat bg-center -my-20 flex items-center px-28">
         <h1 class="text-white text-5xl font-extrabold">BERITA KAMI</h1>
     </main>

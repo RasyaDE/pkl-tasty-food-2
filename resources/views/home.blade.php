@@ -8,7 +8,7 @@
 </head>
 
 <body class="overflow-x-hidden">
-    <x-navbar></x-navbar>
+    <x-navbar color="text-black"></x-navbar>
 
     <main class="flex items-center justify-between lg:px-28 h-96 my-28 ">
         <div class="w-1/2">
@@ -139,7 +139,8 @@
         <h1 class="text-center text-3xl font-semibold py-8">Galeri Kami</h1>
         <div class="grid grid-cols-3 gap-4">
             <div class="bg-white h-96 rounded-xl shadow-2xl overflow-hidden">
-                <img class="bg-no-repeat bg-bottom" src="{{url('images/food-galeri.jpg')}}" alt="">
+                <img class="bg-no-repeat bg-bottom
+                " src="{{url('images/food-galeri.jpg')}}" alt="">
             </div>
             <div class="bg-white h-96 rounded-xl shadow-2xl overflow-hidden">
                 <img class="bg-no-repeat bg-bottom" src="{{url('images/food-galeri-2.jpg')}}" alt="">
