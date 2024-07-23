@@ -143,10 +143,10 @@
                 " src="{{url('images/food-galeri.jpg')}}" alt="">
             </div>
             <div class="bg-white h-96 rounded-xl shadow-2xl overflow-hidden">
-                <img class="bg-no-repeat bg-bottom" src="{{url('images/food-galeri-2.jpg')}}" alt="">
+                <img class="bg-no-repeat bg-bottom object-cover h-full w-full" src="{{url('images/food-galeri-2.jpg')}}" alt="">
             </div>
             <div class="bg-white h-96 rounded-xl shadow-2xl overflow-hidden">
-                <img class="bg-no-repeat bg-bottom" src="{{url('images/food-galeri-3.jpg')}}" alt="">
+                <img class="bg-no-repeat bg-center object-cover h-full w-full " src="{{url('images/food-galeri-3.jpg')}}" alt="">
             </div>
             <div class="bg-white h-96 rounded-xl shadow-2xl overflow-hidden">
                 <img class="bg-no-repeat bg-bottom" src="{{url('images/food-galeri.jpg')}}" alt="">

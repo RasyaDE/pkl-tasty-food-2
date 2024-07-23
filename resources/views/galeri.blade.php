@@ -14,7 +14,7 @@
     </main>
 
     <div class="px-28">
-        <img class="rounded-lg" src="{{ url("images/food-galeri-2.jpg")}}" alt="">
+        <img class="rounded-lg h-96 w-full object-cover bg-top" src="{{ url("images/food-galeri-2.jpg")}}" alt="">
     </div>
 
     <main class="h-full lg:px-28 lg:py-8  w-full">
