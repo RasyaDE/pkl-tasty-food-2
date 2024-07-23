@@ -53,7 +53,7 @@
         <div class="">
             <img class="h-28" src="{{url('/images/telephone.png')}}" alt="">
         </div>
-        <div class="text-center">
+        <div class="text-center mt-3">
             <p class="font-bold uppercase text-lg">Email</p>
             <p>tastyfood@gmail.com</p>
         </div>
@@ -68,6 +68,10 @@
         </div>
     </div>
 
+</div>
+
+<div class="h-screen w-full px-28 py-28 bg-slate-200">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126666.86532603866!2d108.2259959!3d-7.2020472!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c381e3c323%3A0x5f5160f6c9796e4b!2sCYBERLABS%20-%20Jasa%20Digital%20Marketing%20%7C%20Jasa%20Pembuatan%20Website%20%7C%20Jasa%20Pembuatan%20Aplikasi!5e0!3m2!1sid!2sid!4v1721710522276!5m2!1sid!2sid" class="w-full h-full rounded-lg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
     <x-footer></x-footer>
