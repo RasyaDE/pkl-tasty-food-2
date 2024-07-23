@@ -9,14 +9,17 @@
 </head>
 <body>
     <x-navbar color="text-white"></x-navbar>
+
+
     <main class="bg-banner object-cover w-full h-96 bg-no-repeat bg-center -my-20 flex items-center px-28">
         <h1 class="text-white text-5xl font-extrabold">BERITA KAMI</h1>
     </main>
 
     <div class="w-full h-screen bg-slate-200 px-28 flex justify-evenly items-center">
-        <div class="w-3/6 h-[45rem] mr-20">
-            <img class="w-full h-full object-cover bg-center rounded-lg" src="{{url('/images/food-galeri-3.jpg')}}" alt="">
+        <div class="w-3/6 lg:h-[45rem] mr-20">
+            <img class="w-full h-full object-cover rounded-lg" src="{{url('/images/food-galeri-3.jpg')}}" alt="">
         </div>
+
         <div class="w-3/6">
             <h1 class="font-semibold text-3xl tracking-wider uppercase">Apa saja makanan khas nusantara?</h1>
             <p class="py-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corrupti doloremque enim aliquid eius fuga magni, eum hic assumenda nulla sunt deleniti optio vitae! Suscipit vero nostrum iste fugit reprehenderit similique sapiente recusandae unde velit debitis voluptatem illo obcaecati sit, eligendi adipisci. Delectus sapiente laborum sunt ducimus tenetur aperiam maiores.</p>
