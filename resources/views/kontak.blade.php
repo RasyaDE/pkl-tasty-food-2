@@ -13,11 +13,10 @@
         <h1 class="text-white text-5xl font-extrabold">TENTANG KAMI</h1>
     </main>
 
-    <div class="w-full h-screen bg-slate-200 px-28 flex justify-between py-24">
+    <div class="w-full h-screen px-28 flex justify-between py-24">
         <div class="container mx-auto p-4">
             <form action="#" method="POST" class="space-y-6">
                 <h1 class="text-4xl font-bold text-gray-800 mb-8">KONTAK KAMI</h1>
-
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <div class="space-y-6">
                         <div class="">
@@ -54,8 +53,8 @@
             <img class="h-28" src="{{url('/images/telephone.png')}}" alt="">
         </div>
         <div class="text-center mt-3">
-            <p class="font-bold uppercase text-lg">Email</p>
-            <p>tastyfood@gmail.com</p>
+            <p class="font-bold uppercase text-lg">Phone</p>
+            <p>+62 812 3456 7890</p>
         </div>
     </div>
     <div class="flex flex-col items-center">
@@ -63,8 +62,8 @@
         <img class="h-28" src="{{url('/images/location.png')}}" alt="">
         </div>
         <div class="text-center mt-3">
-            <p class="font-bold uppercase text-lg">Email</p>
-            <p>tastyfood@gmail.com</p>
+            <p class="font-bold uppercase text-lg">Location</p>
+            <p>Kota Bandung,Jawa Barat</p>
         </div>
     </div>
 

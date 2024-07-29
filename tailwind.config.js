@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'banner' : "url(/public/images/banner.png)"
+        'banner' : "url(/public/images/banner.png)",
+        'slide-2' : "url(/public/images/food-galeri-2.jpg)"
       }
     },
   },
