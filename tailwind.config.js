@@ -9,7 +9,8 @@ export default {
     extend: {
       backgroundImage: {
         'banner' : "url(/public/images/banner.png)",
-        'slide-2' : "url(/public/images/food-galeri-2.jpg)"
+        'slide-2' : "url(/public/images/food-galeri-2.jpg)",
+        'galeri' : "url(/public/images/food-galeri-1.jpg)"
       }
     },
   },

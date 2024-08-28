@@ -13,18 +13,6 @@ body {
     min-height: 100vh;
 }
 
-main {
-    flex: 1;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-
 /* CSS Code */
 .swiper-wrapper {
     width: 100%;

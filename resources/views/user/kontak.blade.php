@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite('resources/css/app.css')
-    <title>Document</title>
-</head>
-<div>
-<x-navbar color="text-white"></x-navbar>
-<main class="bg-banner object-cover w-full h-96 bg-no-repeat bg-center -my-20 flex items-center px-28">
-        <h1 class="text-white text-5xl font-extrabold">TENTANG KAMI</h1>
-    </main>
+@extends('user.layout.layout')
 
+@section('main')
     <div class="w-full h-screen px-28 flex justify-between py-24">
         <div class="container mx-auto p-4">
             <form action="#" method="POST" class="space-y-6">
@@ -72,7 +60,4 @@
 <div class="h-screen w-full px-28 py-28 bg-slate-200">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126666.86532603866!2d108.2259959!3d-7.2020472!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c381e3c323%3A0x5f5160f6c9796e4b!2sCYBERLABS%20-%20Jasa%20Digital%20Marketing%20%7C%20Jasa%20Pembuatan%20Website%20%7C%20Jasa%20Pembuatan%20Aplikasi!5e0!3m2!1sid!2sid!4v1721710522276!5m2!1sid!2sid" class="w-full h-full rounded-lg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-
-    <x-footer></x-footer>
-</body>
-</html>
+@endsection
